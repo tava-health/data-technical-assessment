@@ -1,0 +1,7 @@
+customer_id,snapshot_at,email,country,segment,is_active,employer_id
+C001,2024-12-05T10:00:00Z,c001@example.com,US,SMB,Y,E001
+C001,2025-03-02 09:30:00,c001@example.com,US,Mid,Y,E001
+C001,2025-10-15T08:00:00Z,c001_new@example.com,CA,Mid,Y,E002
+C002,2024-12-20T12:00:00Z,c002@example.com,US,SMB,Y,
+C002,2025-07-01T00:00:00Z,c002@example.com,US,SMB,N,
+C003,2025-02-01T00:00:00Z,,GB,Ent,Y,E003

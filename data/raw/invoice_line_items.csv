@@ -1,0 +1,11 @@
+invoice_id,line_item_id,type,amount
+I001,L001,subscription,100.00
+I003,L002,subscription,100.00
+I003,L003,tax,10.00
+I003,L004,fee,5.00
+I004,L005,subscription,80.00
+I005,L006,subscription,80.00
+I006,L007,subscription,450.00
+I006,L008,tax,30.00
+I006,L009,fee,10.00
+I007,L010,subscription,500.00

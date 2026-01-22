@@ -1,0 +1,48 @@
+{
+  "next_cursor": "page_002",
+  "events": [
+    {
+      "event_id": "E0001",
+      "event_type": "invoice_paid",
+      "occurred_at": "2024-12-11T11:00:00Z",
+      "idempotency_key": "I001_paid",
+      "customer": {
+        "customer_id": "C001",
+        "employer_id": "E001"
+      },
+      "payload": {
+        "invoice_id": "I001",
+        "amount": 100.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "event_id": "E0002",
+      "event_type": "session_booked",
+      "occurred_at": "2025-02-05T15:00:00Z",
+      "idempotency_key": "Ssn_100_booked",
+      "customer": {
+        "customer_id": "C001",
+        "employer_id": "E001"
+      },
+      "payload": {
+        "session_id": "SSN100",
+        "provider_id": "P01"
+      }
+    },
+    {
+      "event_id": "E0003",
+      "event_type": "session_completed",
+      "occurred_at": "2025-02-10T16:00:00Z",
+      "idempotency_key": "Ssn_100_completed",
+      "customer": {
+        "customer_id": "C001",
+        "employer_id": "E001"
+      },
+      "payload": {
+        "session_id": "SSN100",
+        "provider_id": "P01"
+      }
+    }
+  ]
+}
